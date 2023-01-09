@@ -1,5 +1,5 @@
 body{
-    background-image: url('Pictures/Background.jpg');
+    background-image: url('../CV/Pictures/Background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -38,6 +38,132 @@ button {
 button:active {
     animation: pulse 0.5s;
 }
-div{
+.div-portfolio{
     text-align: center;
+}
+.buttonmargin{
+    margin-left: 20px;
+}
+.firstbuttonmargin{
+    margin-left: 80px;
+}
+.h2-logboek{
+    margin: 30px;
+    font-family: Arial;
+}
+.hoofd-cv
+{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: Arial;
+
+}
+.hoofd2-cv{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 525px;
+    text-decoration: underline;
+    margin-bottom: 1px;
+    font-family: Arial;
+}
+
+.text1-cv{
+    margin-left: 525px;
+    font-size: 15px;
+    margin-bottom: 1px;
+    display: inline-block;
+    font-family: Arial;
+}
+.text1-cv-icoontjes{
+    margin-left: 525px;
+    font-size: 17px;
+    margin-bottom: 1px;
+    display: inline-block;
+    font-weight: bold;
+    font-family: "Courier New";
+
+}
+.text2-cv{
+    margin-left: 25px;
+    margin-bottom: 1px;
+    font-size: 15px;
+    display: inline-block;
+    font-family: Arial;
+}
+.text3-cv{
+    margin-left: 105px;
+    font-size: 15px;
+    margin-bottom: 1px;
+    display: inline-block;
+    font-family: Arial;
+}
+.div-cv-foto{
+
+    border: 2px black;
+    display: inline-block;
+    float: right;
+    margin-right: 400px;
+
+}
+img:hover{
+    filter: blur(1px);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5) ;
+}
+.logboek-weken{
+    font-family: "Courier New";
+    font-weight: bold;
+    margin-left: 30px;
+    display: inline-block;
+}
+.logboek-datum{
+    font-family: "Courier New";
+    font-weight: bold;
+    margin-left: 10px;
+    display: inline-block;
+}
+.logboek-tekst{font-family: "Arial";
+    font-weight: bold;
+    margin-left: 10px;
+    display: inline-block;
+
+}
+.box{
+    width: 400px; height: 150px;
+    border: 2px solid black;
+    display: inline-block;
+    font-family: "Courier New";
+    font-size: 30px;
+
+    margin: 150px;
+}
+.box2{
+    width: 400px; height: 150px;
+    border: 2px solid black;
+    display: inline-block;
+    font-family: "Courier New";
+    font-size: 30px;
+
+    margin: 150px;
+    float: right;
+}
+.box3{
+    width: 400px; height: 150px;
+    border: 2px solid black;
+    font-family: "Courier New";
+    font-size: 30px;
+    margin-bottom: 150px;
+    margin-left: 150px;
+    display: inline-block;
+}
+.box4{
+    width: 400px; height: 150px;
+    border: 2px solid black;
+    font-family: "Courier New";
+    font-size: 30px;
+    margin-bottom: 150px;
+    margin-right: 150px;
+    float: right;
+    display: inline-block;
 }

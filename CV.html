@@ -3,146 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <title>CV</title>
+    <link rel="stylesheet" href="Css-Styles.css">
 </head>
 <body>
-<style>
-    body{
-        background-image: url('pictures/Background.jpg');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-    }
-    button {
-        background-color: darkslategrey;
-        color: white;
-        border: none;
-        padding: 8px 16px;
-        font-size: 16px;
-        cursor: pointer;
-        margin-right: 15px;
 
-    }
-    @keyframes pulse {
-        from { transform: scale(1); }
-        50% { transform: scale(1.1); }
-        to { transform: scale(1); }
-    }
-
-    button:active {
-        animation: pulse 0.5s;
-    }
-.buttonmargin{
-    margin-left: 80px;
-}
-
-.hoofd
-{
-    font-size: 25px;
-    text-align: center;
-    font-weight: bold;
-    margin-bottom: 10px;
-
-}
-.hoofd2{
-    font-weight: bold;
-    font-size: 20px;
-    margin-left: 525px;
-    text-decoration: underline;
-    margin-bottom: 1px;
-}
-
-.text1{
-    margin-left: 525px;
-    font-size: 15px;
-    margin-bottom: 1px;
-    display: inline-block;
-}
-.text2{
-    margin-left: 170px;
-    margin-bottom: 1px;
-    font-size: 15px;
-    display: inline-block;
-}
-.text3{
-    margin-left: 205px;
-    font-size: 15px;
-    margin-bottom: 1px;
-    display: inline-block;
-}
-
-
-</style>
 <button class="buttonmargin" onclick="window.location.href='Inleidende tekst.html'">
     Inleidende tekst
-    <a href="Inleidende%20tekst.html"></a>
+
 </button>
-<button onclick="window.location.href='CV.html'">
+<button class="buttonmargin" onclick="window.location.href='CV.html'">
     Curriculum Vitae
 </button>
-<button onclick="window.location.href='Info.html'">
+<button class="buttonmargin" onclick="window.location.href='Info.html'">
     Info
 </button>
-<button onclick="window.location.href='Logboek.html'">
+<button class="buttonmargin" onclick="window.location.href='Logboek.html'">
     Logboek
 </button>
-<button onclick="window.location.href='Copetenties programmeur.html'">
+<button class="buttonmargin" onclick="window.location.href='Copetenties programmeur.html'">
     Competenties programmeur
 </button>
-<button onclick="window.location.href='Overzicht onwikkelingsgesprekken.html'">
+<button class="buttonmargin" onclick="window.location.href='Overzicht onwikkelingsgesprekken.html'">
     Overzicht ontwikkelingsgesprekken
 </button>
-<button onclick="window.location.href='opdrachten.html'">
+<button class="buttonmargin" onclick="window.location.href='opdrachten.html'">
     Opdrachten
 </button>
-<button onclick="window.location.href='Reflectie.html'">
+<button class="buttonmargin" onclick="window.location.href='Reflectie.html'">
     Reflectie
 </button>
-<p class="hoofd">Curriculum Vitae</p>
 
-<p class="hoofd2">Persoonlijke gegevens</p>
+
+
+<p class="hoofd-cv">Curriculum Vitae</p>
+
+<p class="hoofd2-cv">Persoonlijke gegevens</p>
 <div>
-    <p class="text1">
-    Voornaam <br>
-    Naam <br>
-    Adres<br>
-        <br>
-    Gsm<br>
-    E-mail <br>
-    Nationaliteit <br>
-    Geboortedatum <br>
-    Geboorteplaats <br>
-    Burgerlijke staat <br>
-    Geslacht <br>
-    </p>
-    <p class="text2">
-        Furkan <br>
-        Safranti <br>
-        Noordberm 47 <br>
-        3550 Heusden-Zolder <br>
-        0489 787 359 <br>
-        Safrantifurkan@gmail.com <br>
-        Belg <br>
-        2002-11-29 <br>
-        Heusden-Zolder <br>
-        Ongehuwd <br>
-        Man <br>
+    <a href="https://www.linkedin.com/in/furkan-safranti-b30b96252/">
+        <img src="Pictures/Selfie.jpg" style="height: 160px;width: 130px" class="div-cv-foto">
 
+    </a>
+
+    <p class="text1-cv-icoontjes">
+        <img src="Pictures/man.jpg" style="height: 25px; width: 25px"> Safranti Furkan <br>
+
+        <img src="Pictures/huis.png" style="height: 25px; width: 25px" > Noordberm 47, 3550 Heusden-Zolder<br>
+
+    <img src="Pictures/Telefoon.jpg" style="width: 25px; height: 25px"> 0489 787 359<br>
+    <img src="Pictures/Brief.jpg" style="height: 25px; width: 25px"> Safrantifurkan@gmail.com <br>
+        <img src="Pictures/wereldbol.jpg" style="width: 25px;height: 25px" > Belg <br>
+    <img src="Pictures/kalender.jpg" style="height: 25px; width: 25px"> 2002-11-29 <br>
+    <img src="Pictures/Ziekenhuis.jpg" style="height: 25px; width: 25px"> Heusden-Zolder <br>
+    <img src="Pictures/ring.jpg" style="height: 25px; width: 25px"> Ongehuwd  <br>
+    <img src="Pictures/geslacht.jpg" style="height: 25px; width: 25px"> Man <br>
     </p>
+
 </div>
 <div>
-    <p class="hoofd2">
+    <p class="hoofd2-cv">
         Studies
     </p>
 </div>
 <div>
-    <p class="text1">
+    <p class="text1-cv">
         2022-2023 <br>
         2021-2022 <br>
         2018-2021 <br>
         2017-2018 <br>
         2015-2017 <br>
     </p>
-    <p class="text3">
+    <p class="text3-cv">
         Programmeren, 1ste jaar graduaat <br>
         Specialisatiejaar winkelbeheer en etalage, 3de graad bso <br>
         Office Assistant, 3de graad bso <br>
@@ -152,12 +82,12 @@
     </p>
 </div>
 <div>
-    <p class="hoofd2">
+    <p class="hoofd2-cv">
         Nuttige ervaringen
     </p>
 </div>
 <div>
-    <p class="text1">
+    <p class="text1-cv">
         2021-2022 <br>
         <br>
         2018-2019 <br>
@@ -166,7 +96,7 @@
         <br>
 
     </p>
-    <p class="text3">
+    <p class="text3-cv">
         Footlocker Hasselt: stage/jobstudent <br>
         Verkoopverantwoordelijke <br>
         Gamma: stage <br>
@@ -177,18 +107,18 @@
     </p>
 </div>
 <div>
-    <p class="hoofd2">
+    <p class="hoofd2-cv">
         Taalkennis
     </p>
 </div>
 <div>
-    <p class="text1">
+    <p class="text1-cv">
         Nederlands <br>
         Engels <br>
         Frans <br>
         Turks <br>
     </p>
-    <p class="text3">
+    <p class="text3-cv">
         Zeer goed <br>
         Goed <br>
         Schoolkennis <br>
@@ -196,12 +126,12 @@
     </p>
 </div>
 <div>
-    <p class="hoofd2">
+    <p class="hoofd2-cv">
         Persoonlijke kenmerken
     </p>
 </div>
 <div>
-    <p class="text1">
+    <p class="text1-cv">
         Vriendelijk, sociaal, teamplayer, discreet, flexibel, stressbestendig, commercieel ingesteld
     </p>
 </div>
