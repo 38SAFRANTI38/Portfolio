@@ -1,0 +1,43 @@
+body{
+    background-image: url('Pictures/Background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    font-family:Garamond;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 50px;
+}
+a{
+    color: darkslategrey;
+    font-size: 30px;
+    alignment: center;
+    font-family: Arial;
+
+
+}
+button {
+    background-color: darkslategrey;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+
+}
+@keyframes pulse {
+    from { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    to { transform: scale(1); }
+}
+
+button:active {
+    animation: pulse 0.5s;
+}
+div{
+    text-align: center;
+}
