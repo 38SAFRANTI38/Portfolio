@@ -1,5 +1,5 @@
 body{
-    background-image: url('../CV/Pictures/Background.jpg');
+    background-image: url("Pictures/Background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -9,6 +9,7 @@ h1{
     text-align: center;
     margin-top: 100px;
     font-size: 50px;
+    
 }
 a{
     color: darkslategrey;
@@ -26,6 +27,7 @@ button {
     font-size: 16px;
     cursor: pointer;
     margin-bottom: 10px;
+    width: 200px;
 
 
 }
@@ -42,15 +44,12 @@ button:active {
     text-align: center;
 }
 .buttonmargin{
-    margin-left: 20px;
+    margin-left: 75px;
 }
 .firstbuttonmargin{
     margin-left: 80px;
 }
-.h2-logboek{
-    margin: 30px;
-    font-family: Arial;
-}
+
 .hoofd-cv
 {
     font-size: 25px;
@@ -111,59 +110,49 @@ img:hover{
     filter: blur(1px);
     box-shadow: 0 0 10px rgba(0,0,0,0.5) ;
 }
-.logboek-weken{
-    font-family: "Courier New";
-    font-weight: bold;
-    margin-left: 30px;
-    display: inline-block;
-}
-.logboek-datum{
-    font-family: "Courier New";
-    font-weight: bold;
-    margin-left: 10px;
-    display: inline-block;
-}
-.logboek-tekst{font-family: "Arial";
-    font-weight: bold;
-    margin-left: 10px;
-    display: inline-block;
 
-}
+
 .box{
     width: 400px; height: 150px;
-    border: 2px solid black;
     display: inline-block;
-    font-family: "Courier New";
-    font-size: 30px;
-
     margin: 150px;
 }
 .box2{
     width: 400px; height: 150px;
-    border: 2px solid black;
     display: inline-block;
-    font-family: "Courier New";
-    font-size: 30px;
-
     margin: 150px;
     float: right;
 }
 .box3{
     width: 400px; height: 150px;
-    border: 2px solid black;
-    font-family: "Courier New";
-    font-size: 30px;
     margin-bottom: 150px;
-    margin-left: 150px;
+    margin-left: 500px;
     display: inline-block;
 }
 .box4{
     width: 400px; height: 150px;
-    border: 2px solid black;
-    font-family: "Courier New";
-    font-size: 30px;
     margin-bottom: 150px;
-    margin-right: 150px;
-    float: right;
+    margin-left: 450px;
     display: inline-block;
+}
+.box5{
+    width: 400px; height: 150px;
+    margin-bottom: 150px;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+.boxInfo{
+    width: auto; height: auto;
+    margin-top: 250px;
+    margin-left: 175px;
+    margin-right: 175px;
+    display: inline-block;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 5px;
+    border-color: darkgoldenrod;
+    font-size: 35px;
+    font-family: Arial;
+    font-weight: bold;
 }
